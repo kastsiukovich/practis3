@@ -11,9 +11,9 @@ function arrayToString(arr) {
     var newStr = arr.split('');
     return newStr;
 }
-console.log(arrayToString([1, 2, 3, 4, 5, 6]));
-console.log(arrayToString(["a", "b", "c", "d", "e", "f"]));
-console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]))
+// console.log(arrayToString([1, 2, 3, 4, 5, 6]));
+// console.log(arrayToString(["a", "b", "c", "d", "e", "f"]));
+// console.log(arrayToString([1, 2, 3, "a", "s", "dAAAA"]))
 
 // вар 2
 function arrayToString(arr) {

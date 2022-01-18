@@ -129,16 +129,10 @@ function getBudgets(arr) {
 
 
 // console.log(getBudgets([
-//   { name: "John",  age: 21, budget: 29000 },
-//   { name: "Steve",  age: 32, budget: 32000 },
-//   { name: "Martin",  age: 16, budget: 1600 }
+//   { name: "John", age: 21, budget: 29000 },
+//   { name: "Steve", age: 32, budget: 32000 },
+//   { name: "Martin", age: 16, budget: 1600 }
 // ]));
-
-
-
-
-
-
 
 
 /*  4.Напишите функцию, которая принимает массив объектов даты и возвращает «самую длинную полосу» (т. Е. Количество последовательных дней подряд).
@@ -185,26 +179,26 @@ function longestStreak(arr) {
   }
   return sum
 }
-// console.log(longestStreak([
-//   {
-//     "date": "2021-04-18"
-//   },
-//   {
-//     "date": "2021-04-19"
-//   },
-//   {
-//     "date": "2021-04-20"
-//   },
-//   {
-//     "date": "2021-04-26"
-//   },
-//   {
-//     "date": "2021-04-27"
-//   },
-//   {
-//     "date": "2021-04-30"
-//   }
-// ]));
+console.log(longestStreak([
+  {
+    "date": "2021-04-18"
+  },
+  {
+    "date": "2021-04-19"
+  },
+  {
+    "date": "2021-04-20"
+  },
+  {
+    "date": "2021-04-26"
+  },
+  {
+    "date": "2021-04-27"
+  },
+  {
+    "date": "2021-04-30"
+  }
+]));
 
 
 

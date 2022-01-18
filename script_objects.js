@@ -62,3 +62,10 @@ function toArray(obj) {
  matchDifference({ wins: 7, losing: 13 }) ➞ -6
  matchDifference({ wins: 10, losing: 10 }) ➞ 0
 */
+function matchDifference(obj) {
+    return obj.wins - obj.losing;
+
+}
+console.log(matchDifference({ wins: 12, losing: 8 }));
+console.log(matchDifference({ wins: 7, losing: 13 }));
+console.log(matchDifference({ wins: 10, losing: 10 }));
